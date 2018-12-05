@@ -65,6 +65,12 @@ GL/glu.h
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp
 GL/glew.h
 -
+sstream
+-
+string
+-
+fstream
+-
 iostream
 -
 GLFW/glfw3.h
