@@ -65,6 +65,12 @@ GL/glu.h
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp
 GL/glew.h
 -
+IndexBuffer.hpp
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.hpp
+VertexBuffer.hpp
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.hpp
+Renderer.hpp
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
 sstream
 -
 string
@@ -75,4 +81,14 @@ iostream
 -
 GLFW/glfw3.h
 -
+
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.hpp
+
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
+signal.h
+-
+GL/glew.h
+-
+
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.hpp
 

@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/Application.cpp.o"
+  "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/IndexBuffer.cpp.o"
+  "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/Renderer.cpp.o"
+  "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/VertexBuffer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

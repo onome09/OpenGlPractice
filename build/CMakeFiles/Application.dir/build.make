@@ -60,29 +60,74 @@ include CMakeFiles/Application.dir/flags.make
 CMakeFiles/Application.dir/src/Application.cpp.o: CMakeFiles/Application.dir/flags.make
 CMakeFiles/Application.dir/src/Application.cpp.o: ../src/Application.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Application.dir/src/Application.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/Application.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/Application.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp
 
 CMakeFiles/Application.dir/src/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/Application.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp > CMakeFiles/Application.dir/src/Application.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp > CMakeFiles/Application.dir/src/Application.cpp.i
 
 CMakeFiles/Application.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/Application.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp -o CMakeFiles/Application.dir/src/Application.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp -o CMakeFiles/Application.dir/src/Application.cpp.s
+
+CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Application.dir/src/IndexBuffer.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/IndexBuffer.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.cpp
+
+CMakeFiles/Application.dir/src/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/IndexBuffer.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.cpp > CMakeFiles/Application.dir/src/IndexBuffer.cpp.i
+
+CMakeFiles/Application.dir/src/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/IndexBuffer.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.cpp -o CMakeFiles/Application.dir/src/IndexBuffer.cpp.s
+
+CMakeFiles/Application.dir/src/Renderer.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Application.dir/src/Renderer.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/Renderer.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.cpp
+
+CMakeFiles/Application.dir/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/Renderer.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.cpp > CMakeFiles/Application.dir/src/Renderer.cpp.i
+
+CMakeFiles/Application.dir/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/Renderer.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.cpp -o CMakeFiles/Application.dir/src/Renderer.cpp.s
+
+CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Application.dir/src/VertexBuffer.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/VertexBuffer.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.cpp
+
+CMakeFiles/Application.dir/src/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/VertexBuffer.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.cpp > CMakeFiles/Application.dir/src/VertexBuffer.cpp.i
+
+CMakeFiles/Application.dir/src/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/VertexBuffer.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.cpp -o CMakeFiles/Application.dir/src/VertexBuffer.cpp.s
 
 # Object files for target Application
 Application_OBJECTS = \
-"CMakeFiles/Application.dir/src/Application.cpp.o"
+"CMakeFiles/Application.dir/src/Application.cpp.o" \
+"CMakeFiles/Application.dir/src/IndexBuffer.cpp.o" \
+"CMakeFiles/Application.dir/src/Renderer.cpp.o" \
+"CMakeFiles/Application.dir/src/VertexBuffer.cpp.o"
 
 # External object files for target Application
 Application_EXTERNAL_OBJECTS =
 
 Application: CMakeFiles/Application.dir/src/Application.cpp.o
+Application: CMakeFiles/Application.dir/src/IndexBuffer.cpp.o
+Application: CMakeFiles/Application.dir/src/Renderer.cpp.o
+Application: CMakeFiles/Application.dir/src/VertexBuffer.cpp.o
 Application: CMakeFiles/Application.dir/build.make
 Application: ../Dependencies/glfw/lib/libglfw3.a
 Application: ../Dependencies/glew/lib/libGLEW.a
 Application: CMakeFiles/Application.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Application"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Application"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Application.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/Cellar/cmake/3.12.0/bin/cmake -E copy /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/Application /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice
 

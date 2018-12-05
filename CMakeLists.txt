@@ -1,13 +1,16 @@
 project (OpenGlPractice)  #not sure whether this should be the same name of the executable, but I always see that "convention"
 cmake_minimum_required(VERSION 2.8)
 set (CMAKE_CXX_STANDARD 11)
+SET(CMAKE_CXX_COMPILER "g++")
+
+file(GLOB SRC_FILES ${CMAKE_SOURCE_DIR}/src/*.cpp)
 
 find_library(COCOA_LIBRARY Cocoa)
 find_library(OPENGL_LIBRARY OpenGl)
 find_library(IOKIT_LIBRARY IOKit)
 find_library(COREVIDEO_LIBRARY CoreVideo)
 
-ADD_EXECUTABLE(Application src/Application.cpp)
+ADD_EXECUTABLE(Application ${SRC_FILES})
 add_custom_command(TARGET Application POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:Application> ${CMAKE_SOURCE_DIR}
 )
