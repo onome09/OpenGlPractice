@@ -231,6 +231,33 @@ src/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
+src/Texture.o: src/Texture.cpp.o
+
+.PHONY : src/Texture.o
+
+# target to build an object file
+src/Texture.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/Texture.cpp.o
+.PHONY : src/Texture.cpp.o
+
+src/Texture.i: src/Texture.cpp.i
+
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
+
 src/VertexArray.o: src/VertexArray.cpp.o
 
 .PHONY : src/VertexArray.o
@@ -285,6 +312,33 @@ src/VertexBuffer.cpp.s:
 	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/VertexBuffer.cpp.s
 .PHONY : src/VertexBuffer.cpp.s
 
+src/std_image.o: src/std_image.cpp.o
+
+.PHONY : src/std_image.o
+
+# target to build an object file
+src/std_image.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/std_image.cpp.o
+.PHONY : src/std_image.cpp.o
+
+src/std_image.i: src/std_image.cpp.i
+
+.PHONY : src/std_image.i
+
+# target to preprocess a source file
+src/std_image.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/std_image.cpp.i
+.PHONY : src/std_image.cpp.i
+
+src/std_image.s: src/std_image.cpp.s
+
+.PHONY : src/std_image.s
+
+# target to generate assembly for a file
+src/std_image.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/std_image.cpp.s
+.PHONY : src/std_image.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,12 +360,18 @@ help:
 	@echo "... src/Shader.o"
 	@echo "... src/Shader.i"
 	@echo "... src/Shader.s"
+	@echo "... src/Texture.o"
+	@echo "... src/Texture.i"
+	@echo "... src/Texture.s"
 	@echo "... src/VertexArray.o"
 	@echo "... src/VertexArray.i"
 	@echo "... src/VertexArray.s"
 	@echo "... src/VertexBuffer.o"
 	@echo "... src/VertexBuffer.i"
 	@echo "... src/VertexBuffer.s"
+	@echo "... src/std_image.o"
+	@echo "... src/std_image.i"
+	@echo "... src/std_image.s"
 .PHONY : help
 
 

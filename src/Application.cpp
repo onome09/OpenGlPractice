@@ -1,18 +1,14 @@
 #include <GL/glew.h>
+#include "Texture.hpp"
+#include <iostream>
+#include "VertexBufferLayout.hpp"
 #include "Shader.hpp"
 #include "VertexArray.hpp"
 #include "IndexBuffer.hpp"
 #include "VertexBuffer.hpp"
 #include "Renderer.hpp"
-#include <sstream>
-#include <string>
-#include <fstream>
-#include <iostream>
+
 #include <GLFW/glfw3.h>
-
-
-
-
 
 int main(void)
 {
@@ -32,7 +28,6 @@ int main(void)
   window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
   if (!window)
     {
-      std::cout << "HI" << std::endl;
       glfwTerminate();
       return -1;
     }
@@ -45,54 +40,55 @@ int main(void)
     std::cout << "Error: Issue with glewInit ---- exiting" << std::endl;
     return -1;
   }
-  std::cout << "GL_SHADING_LANGUAGE_VERSION: " << glGetString(GL_SHADING_LANGUAGE_VERSION) << std::endl;
-  std::cout << glGetString(GL_VERSION) << std::endl;
 
   float positions[] = {
-    -0.5f, -0.5f, //0
-     0.5f, -0.5f, //1
-     0.5f,  0.5f, //2
-    -0.5f,  0.5f  //3
+    -0.5f, -0.5f, 0.0f, 0.0f, //0
+     0.5f, -0.5f, 1.0f, 0.0f, //1
+     0.5f,  0.5f, 1.0f, 1.0f, //2
+    -0.5f,  0.5f, 0.0f, 1.0f  //3
   };
 
   unsigned int indices[] = {
     0, 1, 2,
     0, 2, 3
   };
-
+  GLCall(glEnable(GL_BLEND));
+  GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
+  
   VertexArray va;
 
-  VertexBuffer vb(positions, 4 * 2 * sizeof(float));
+  VertexBuffer vb(positions, 4 * 4 * sizeof(float));
   VertexBufferLayout layout;
+  layout.PushFloat(2);
   layout.PushFloat(2);
   va.addBuffer(vb, layout);
 
   IndexBuffer ib(indices, 6);
   Shader shader("./res/shaders/Basic.glsl");
   shader.Bind();
-  shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
+  shader.SetUniform4f("u_Color", 0.1f, 0.3f, 0.8f, 1.0f);
+
   
+  Texture texture("res/textures/goku_kid.png");
+  texture.Bind();
+  shader.SetUniform1i("u_Texture", 0);  //0 corresponds to the texture slot
   va.Unbind();
   shader.Unbind();
   vb.Unbind();
   ib.Unbind();
-  
+
+  Renderer renderer; 
   float r = 0.0f;
   float increment = 0.05f;
   /* Loop until the user closes the window */
   while (!glfwWindowShouldClose(window))
     {
 
-      /* Render here */
-      GLCall(glClear(GL_COLOR_BUFFER_BIT));
-
-      shader.Bind();
-      shader.SetUniform4f("u_Color", r, 0.3f, 0.3f, 1.0f);
+      renderer.Clear();
       
-      va.Bind();
-      ib.Bind();
-
-      GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
+      shader.Bind();
+      shader.SetUniform4f("u_Color", 0.9f, 0.3f, 0.3f, 1.0f);
+      renderer.Draw(va, ib, shader);
 
       if (r > 1.0f){
 	increment = -0.05f;

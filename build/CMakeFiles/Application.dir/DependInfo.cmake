@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/IndexBuffer.cpp.o"
   "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/Renderer.cpp.o"
   "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Shader.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/Shader.cpp.o"
+  "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Texture.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/Texture.cpp.o"
   "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexArray.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/VertexArray.cpp.o"
   "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/VertexBuffer.cpp.o"
+  "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/std_image.cpp" "/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles/Application.dir/src/std_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

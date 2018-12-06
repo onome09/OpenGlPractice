@@ -120,3 +120,9 @@ unsigned int Shader::CompileShader(const std::string& source, unsigned int type)
   
   return id;
 }
+void Shader::SetUniform1i(const std :: string & name, int value)
+{
+  int location = GetUniformLocation(name);
+  GLCall(glUniform1i(location, value));
+
+}

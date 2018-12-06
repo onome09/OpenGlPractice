@@ -65,6 +65,12 @@ GL/glu.h
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp
 GL/glew.h
 -
+Texture.hpp
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Texture.hpp
+iostream
+-
+VertexBufferLayout.hpp
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBufferLayout.hpp
 Shader.hpp
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Shader.hpp
 VertexArray.hpp
@@ -75,36 +81,22 @@ VertexBuffer.hpp
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.hpp
 Renderer.hpp
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
-sstream
--
-string
--
-fstream
--
-iostream
--
 GLFW/glfw3.h
 -
 
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.hpp
 
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
-signal.h
--
 GL/glew.h
 -
-
-/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Shader.cpp
+signal.h
+-
 Shader.hpp
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Shader.hpp
-sstream
--
-fstream
--
-iostream
--
-Renderer.hpp
-/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
+VertexArray.hpp
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexArray.hpp
+IndexBuffer.hpp
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.hpp
 
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Shader.hpp
 string
@@ -112,11 +104,13 @@ string
 unordered_map
 -
 
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Texture.hpp
+Renderer.hpp
+/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
+
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexArray.hpp
 VertexBuffer.hpp
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.hpp
-VertexBufferLayout.hpp
-/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBufferLayout.hpp
 
 /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.hpp
 

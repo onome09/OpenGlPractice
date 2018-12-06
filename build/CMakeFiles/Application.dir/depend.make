@@ -7,6 +7,7 @@ CMakeFiles/Application.dir/src/Application.cpp.o: ../src/Application.cpp
 CMakeFiles/Application.dir/src/Application.cpp.o: ../src/IndexBuffer.hpp
 CMakeFiles/Application.dir/src/Application.cpp.o: ../src/Renderer.hpp
 CMakeFiles/Application.dir/src/Application.cpp.o: ../src/Shader.hpp
+CMakeFiles/Application.dir/src/Application.cpp.o: ../src/Texture.hpp
 CMakeFiles/Application.dir/src/Application.cpp.o: ../src/VertexArray.hpp
 CMakeFiles/Application.dir/src/Application.cpp.o: ../src/VertexBuffer.hpp
 CMakeFiles/Application.dir/src/Application.cpp.o: ../src/VertexBufferLayout.hpp
@@ -15,25 +16,53 @@ CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: ../Dependencies/glew/include/G
 CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
 CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.hpp
 CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: ../src/Renderer.hpp
+CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: ../src/Shader.hpp
+CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: ../src/VertexArray.hpp
+CMakeFiles/Application.dir/src/IndexBuffer.cpp.o: ../src/VertexBuffer.hpp
 
 CMakeFiles/Application.dir/src/Renderer.cpp.o: ../Dependencies/glew/include/GL/glew.h
+CMakeFiles/Application.dir/src/Renderer.cpp.o: ../src/IndexBuffer.hpp
 CMakeFiles/Application.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
 CMakeFiles/Application.dir/src/Renderer.cpp.o: ../src/Renderer.hpp
+CMakeFiles/Application.dir/src/Renderer.cpp.o: ../src/Shader.hpp
+CMakeFiles/Application.dir/src/Renderer.cpp.o: ../src/VertexArray.hpp
+CMakeFiles/Application.dir/src/Renderer.cpp.o: ../src/VertexBuffer.hpp
 
 CMakeFiles/Application.dir/src/Shader.cpp.o: ../Dependencies/glew/include/GL/glew.h
+CMakeFiles/Application.dir/src/Shader.cpp.o: ../src/IndexBuffer.hpp
 CMakeFiles/Application.dir/src/Shader.cpp.o: ../src/Renderer.hpp
 CMakeFiles/Application.dir/src/Shader.cpp.o: ../src/Shader.cpp
 CMakeFiles/Application.dir/src/Shader.cpp.o: ../src/Shader.hpp
+CMakeFiles/Application.dir/src/Shader.cpp.o: ../src/VertexArray.hpp
+CMakeFiles/Application.dir/src/Shader.cpp.o: ../src/VertexBuffer.hpp
+
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../Dependencies/glew/include/GL/glew.h
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../src/IndexBuffer.hpp
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../src/Renderer.hpp
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../src/Shader.hpp
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../src/Texture.cpp
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../src/Texture.hpp
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../src/VertexArray.hpp
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../src/VertexBuffer.hpp
+CMakeFiles/Application.dir/src/Texture.cpp.o: ../src/vendor/std_image/std_image.h
 
 CMakeFiles/Application.dir/src/VertexArray.cpp.o: ../Dependencies/glew/include/GL/glew.h
+CMakeFiles/Application.dir/src/VertexArray.cpp.o: ../src/IndexBuffer.hpp
 CMakeFiles/Application.dir/src/VertexArray.cpp.o: ../src/Renderer.hpp
+CMakeFiles/Application.dir/src/VertexArray.cpp.o: ../src/Shader.hpp
 CMakeFiles/Application.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
 CMakeFiles/Application.dir/src/VertexArray.cpp.o: ../src/VertexArray.hpp
 CMakeFiles/Application.dir/src/VertexArray.cpp.o: ../src/VertexBuffer.hpp
 CMakeFiles/Application.dir/src/VertexArray.cpp.o: ../src/VertexBufferLayout.hpp
 
 CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: ../Dependencies/glew/include/GL/glew.h
+CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: ../src/IndexBuffer.hpp
 CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: ../src/Renderer.hpp
+CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: ../src/Shader.hpp
+CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: ../src/VertexArray.hpp
 CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 CMakeFiles/Application.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.hpp
+
+CMakeFiles/Application.dir/src/std_image.cpp.o: ../src/std_image.cpp
+CMakeFiles/Application.dir/src/std_image.cpp.o: ../src/vendor/std_image/std_image.h
 
