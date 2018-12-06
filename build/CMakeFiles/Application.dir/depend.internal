@@ -7,7 +7,10 @@ CMakeFiles/Application.dir/src/Application.cpp.o
  /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Application.cpp
  /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.hpp
  /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Shader.hpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexArray.hpp
  /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.hpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBufferLayout.hpp
 CMakeFiles/Application.dir/src/IndexBuffer.cpp.o
  ../Dependencies/glew/include/GL/glew.h
  /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/IndexBuffer.cpp
@@ -17,6 +20,18 @@ CMakeFiles/Application.dir/src/Renderer.cpp.o
  ../Dependencies/glew/include/GL/glew.h
  /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.cpp
  /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
+CMakeFiles/Application.dir/src/Shader.cpp.o
+ ../Dependencies/glew/include/GL/glew.h
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Shader.cpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Shader.hpp
+CMakeFiles/Application.dir/src/VertexArray.cpp.o
+ ../Dependencies/glew/include/GL/glew.h
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexArray.cpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexArray.hpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBuffer.hpp
+ /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/VertexBufferLayout.hpp
 CMakeFiles/Application.dir/src/VertexBuffer.cpp.o
  ../Dependencies/glew/include/GL/glew.h
  /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/Renderer.hpp

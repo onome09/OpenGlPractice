@@ -1,6 +1,6 @@
 project (OpenGlPractice)  #not sure whether this should be the same name of the executable, but I always see that "convention"
 cmake_minimum_required(VERSION 2.8)
-set (CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_STANDARD 17)
 SET(CMAKE_CXX_COMPILER "g++")
 
 file(GLOB SRC_FILES ${CMAKE_SOURCE_DIR}/src/*.cpp)
