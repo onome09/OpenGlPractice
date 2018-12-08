@@ -161,6 +161,97 @@ CMakeFiles/Application.dir/src/std_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/std_image.cpp.s"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/std_image.cpp -o CMakeFiles/Application.dir/src/std_image.cpp.s
 
+CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.o: ../src/tests/TestClearColor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/TestClearColor.cpp
+
+CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/TestClearColor.cpp > CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.i
+
+CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/TestClearColor.cpp -o CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.s
+
+CMakeFiles/Application.dir/src/tests/TestTexture.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/tests/TestTexture.cpp.o: ../src/tests/TestTexture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Application.dir/src/tests/TestTexture.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/tests/TestTexture.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/TestTexture.cpp
+
+CMakeFiles/Application.dir/src/tests/TestTexture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/tests/TestTexture.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/TestTexture.cpp > CMakeFiles/Application.dir/src/tests/TestTexture.cpp.i
+
+CMakeFiles/Application.dir/src/tests/TestTexture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/tests/TestTexture.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/TestTexture.cpp -o CMakeFiles/Application.dir/src/tests/TestTexture.cpp.s
+
+CMakeFiles/Application.dir/src/tests/test.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/tests/test.cpp.o: ../src/tests/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Application.dir/src/tests/test.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/tests/test.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/test.cpp
+
+CMakeFiles/Application.dir/src/tests/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/tests/test.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/test.cpp > CMakeFiles/Application.dir/src/tests/test.cpp.i
+
+CMakeFiles/Application.dir/src/tests/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/tests/test.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/tests/test.cpp -o CMakeFiles/Application.dir/src/tests/test.cpp.s
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui.cpp
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui.cpp > CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.i
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui.cpp -o CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.s
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_demo.cpp
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_demo.cpp > CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.i
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_demo.cpp -o CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.s
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_draw.cpp
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_draw.cpp > CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.i
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_draw.cpp -o CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.s
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: CMakeFiles/Application.dir/flags.make
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o -c /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_impl_glfw_gl3.cpp > CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+
+CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/src/vendor/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+
 # Object files for target Application
 Application_OBJECTS = \
 "CMakeFiles/Application.dir/src/Application.cpp.o" \
@@ -170,7 +261,14 @@ Application_OBJECTS = \
 "CMakeFiles/Application.dir/src/Texture.cpp.o" \
 "CMakeFiles/Application.dir/src/VertexArray.cpp.o" \
 "CMakeFiles/Application.dir/src/VertexBuffer.cpp.o" \
-"CMakeFiles/Application.dir/src/std_image.cpp.o"
+"CMakeFiles/Application.dir/src/std_image.cpp.o" \
+"CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.o" \
+"CMakeFiles/Application.dir/src/tests/TestTexture.cpp.o" \
+"CMakeFiles/Application.dir/src/tests/test.cpp.o" \
+"CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.o" \
+"CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
 
 # External object files for target Application
 Application_EXTERNAL_OBJECTS =
@@ -183,11 +281,18 @@ Application: CMakeFiles/Application.dir/src/Texture.cpp.o
 Application: CMakeFiles/Application.dir/src/VertexArray.cpp.o
 Application: CMakeFiles/Application.dir/src/VertexBuffer.cpp.o
 Application: CMakeFiles/Application.dir/src/std_image.cpp.o
+Application: CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.o
+Application: CMakeFiles/Application.dir/src/tests/TestTexture.cpp.o
+Application: CMakeFiles/Application.dir/src/tests/test.cpp.o
+Application: CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.o
+Application: CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.o
+Application: CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.o
+Application: CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
 Application: CMakeFiles/Application.dir/build.make
 Application: ../Dependencies/glfw/lib/libglfw3.a
 Application: ../Dependencies/glew/lib/libGLEW.a
 Application: CMakeFiles/Application.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Application"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Application"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Application.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/Cellar/cmake/3.12.0/bin/cmake -E copy /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice/build/Application /Users/onome.oyibo/C++Stuff/gitProjects/OpenGlPractice
 

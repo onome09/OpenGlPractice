@@ -1,4 +1,10 @@
 #include <GL/glew.h>
+#include "TestClearColor.hpp"
+#include "TestTexture.hpp"
+#include "vendor/imgui/imgui.h"
+#include "vendor/imgui/imgui_impl_glfw_gl3.h"
+#include "vendor/glm/gtc/matrix_transform.hpp"
+#include "vendor/glm/glm.hpp"
 #include "Texture.hpp"
 #include <iostream>
 #include "VertexBufferLayout.hpp"
@@ -41,67 +47,59 @@ int main(void)
     return -1;
   }
 
-  float positions[] = {
-    -0.5f, -0.5f, 0.0f, 0.0f, //0
-     0.5f, -0.5f, 1.0f, 0.0f, //1
-     0.5f,  0.5f, 1.0f, 1.0f, //2
-    -0.5f,  0.5f, 0.0f, 1.0f  //3
-  };
-
-  unsigned int indices[] = {
-    0, 1, 2,
-    0, 2, 3
-  };
   GLCall(glEnable(GL_BLEND));
   GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
   
-  VertexArray va;
+ 
+  Renderer renderer;
 
-  VertexBuffer vb(positions, 4 * 4 * sizeof(float));
-  VertexBufferLayout layout;
-  layout.PushFloat(2);
-  layout.PushFloat(2);
-  va.addBuffer(vb, layout);
-
-  IndexBuffer ib(indices, 6);
-  Shader shader("./res/shaders/Basic.glsl");
-  shader.Bind();
-  shader.SetUniform4f("u_Color", 0.1f, 0.3f, 0.8f, 1.0f);
-
+  ImGui::CreateContext();
+  ImGui_ImplGlfwGL3_Init(window, true);
+  ImGui::StyleColorsDark();
   
-  Texture texture("res/textures/goku_kid.png");
-  texture.Bind();
-  shader.SetUniform1i("u_Texture", 0);  //0 corresponds to the texture slot
-  va.Unbind();
-  shader.Unbind();
-  vb.Unbind();
-  ib.Unbind();
 
-  Renderer renderer; 
-  float r = 0.0f;
-  float increment = 0.05f;
-  /* Loop until the user closes the window */
+  test::Test* currentTest = nullptr;
+  test::TestMenu* testMenu = new test::TestMenu(currentTest);
+
+  currentTest = testMenu;
+
+  testMenu->RegisterTest<test::TestClearColor>("Clear Color");
+  testMenu->RegisterTest<test::TestTexture>("Texture");
+
   while (!glfwWindowShouldClose(window))
     {
-
+      GLCall(glClearColor(0.0f, 0.0f, 0.0f, 1.0f));
       renderer.Clear();
-      
-      shader.Bind();
-      shader.SetUniform4f("u_Color", 0.9f, 0.3f, 0.3f, 1.0f);
-      renderer.Draw(va, ib, shader);
 
-      if (r > 1.0f){
-	increment = -0.05f;
-      } else if (r < 0.0f) {
-	increment = 0.05f;
+      ImGui_ImplGlfwGL3_NewFrame();
+      if (currentTest) {
+
+	currentTest->OnUpdate(0.0f);
+	currentTest->OnRender();
+	ImGui::Begin("Test");
+	if (currentTest != testMenu && ImGui::Button("<-")){
+	  delete currentTest;
+	  currentTest = testMenu;
+	}
+	currentTest->OnImGuiRender();
+	ImGui::End();
       }
-      r += increment;
+      ImGui::Render();
+      ImGui_ImplGlfwGL3_RenderDrawData(ImGui::GetDrawData());
       /* Swap front and back buffers */
       glfwSwapBuffers(window);
 
       /* Poll for and process events */
       glfwPollEvents();
     }
+
+  delete currentTest;
+
+  if (currentTest != testMenu){
+    delete testMenu;
+  }
+  ImGui_ImplGlfwGL3_Shutdown();
+  ImGui::DestroyContext();
 
   //  GLCall(glDeleteProgram(shader));
   glfwTerminate();

@@ -2,8 +2,9 @@ project (OpenGlPractice)  #not sure whether this should be the same name of the 
 cmake_minimum_required(VERSION 2.8)
 set (CMAKE_CXX_STANDARD 17)
 SET(CMAKE_CXX_COMPILER "g++")
+set(CMAKE_CXX_FLAGS "-Wgnu-array-member-paren-init")
 
-file(GLOB SRC_FILES ${CMAKE_SOURCE_DIR}/src/*.cpp)
+file(GLOB_RECURSE SRC_FILES ${CMAKE_SOURCE_DIR}/src/*.cpp)
 
 find_library(COCOA_LIBRARY Cocoa)
 find_library(OPENGL_LIBRARY OpenGl)
@@ -16,6 +17,10 @@ add_custom_command(TARGET Application POST_BUILD
 )
 target_include_directories(Application PUBLIC Dependencies/glfw/include)
 target_include_directories(Application PUBLIC Dependencies/glew/include)
+target_include_directories(Application PUBLIC ${CMAKE_SOURCE_DIR}/src/vendor/imgui)
+target_include_directories(Application PUBLIC ${CMAKE_SOURCE_DIR}/src/tests)
+target_include_directories(Application PUBLIC ${CMAKE_SOURCE_DIR}/src)
+
 target_link_libraries(Application ${CMAKE_SOURCE_DIR}/Dependencies/glfw/lib/libglfw3.a)
 target_link_libraries(Application ${CMAKE_SOURCE_DIR}/Dependencies/glew/lib/libGLEW.a)
 target_link_libraries(Application ${COCOA_LIBRARY} ${OPENGL_LIBRARY} ${IOKIT_LIBRARY} ${COREVIDEO_LIBRARY})

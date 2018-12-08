@@ -339,6 +339,195 @@ src/std_image.cpp.s:
 	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/std_image.cpp.s
 .PHONY : src/std_image.cpp.s
 
+src/tests/TestClearColor.o: src/tests/TestClearColor.cpp.o
+
+.PHONY : src/tests/TestClearColor.o
+
+# target to build an object file
+src/tests/TestClearColor.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.o
+.PHONY : src/tests/TestClearColor.cpp.o
+
+src/tests/TestClearColor.i: src/tests/TestClearColor.cpp.i
+
+.PHONY : src/tests/TestClearColor.i
+
+# target to preprocess a source file
+src/tests/TestClearColor.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.i
+.PHONY : src/tests/TestClearColor.cpp.i
+
+src/tests/TestClearColor.s: src/tests/TestClearColor.cpp.s
+
+.PHONY : src/tests/TestClearColor.s
+
+# target to generate assembly for a file
+src/tests/TestClearColor.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/TestClearColor.cpp.s
+.PHONY : src/tests/TestClearColor.cpp.s
+
+src/tests/TestTexture.o: src/tests/TestTexture.cpp.o
+
+.PHONY : src/tests/TestTexture.o
+
+# target to build an object file
+src/tests/TestTexture.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/TestTexture.cpp.o
+.PHONY : src/tests/TestTexture.cpp.o
+
+src/tests/TestTexture.i: src/tests/TestTexture.cpp.i
+
+.PHONY : src/tests/TestTexture.i
+
+# target to preprocess a source file
+src/tests/TestTexture.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/TestTexture.cpp.i
+.PHONY : src/tests/TestTexture.cpp.i
+
+src/tests/TestTexture.s: src/tests/TestTexture.cpp.s
+
+.PHONY : src/tests/TestTexture.s
+
+# target to generate assembly for a file
+src/tests/TestTexture.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/TestTexture.cpp.s
+.PHONY : src/tests/TestTexture.cpp.s
+
+src/tests/test.o: src/tests/test.cpp.o
+
+.PHONY : src/tests/test.o
+
+# target to build an object file
+src/tests/test.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/test.cpp.o
+.PHONY : src/tests/test.cpp.o
+
+src/tests/test.i: src/tests/test.cpp.i
+
+.PHONY : src/tests/test.i
+
+# target to preprocess a source file
+src/tests/test.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/test.cpp.i
+.PHONY : src/tests/test.cpp.i
+
+src/tests/test.s: src/tests/test.cpp.s
+
+.PHONY : src/tests/test.s
+
+# target to generate assembly for a file
+src/tests/test.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/tests/test.cpp.s
+.PHONY : src/tests/test.cpp.s
+
+src/vendor/imgui/imgui.o: src/vendor/imgui/imgui.cpp.o
+
+.PHONY : src/vendor/imgui/imgui.o
+
+# target to build an object file
+src/vendor/imgui/imgui.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.o
+.PHONY : src/vendor/imgui/imgui.cpp.o
+
+src/vendor/imgui/imgui.i: src/vendor/imgui/imgui.cpp.i
+
+.PHONY : src/vendor/imgui/imgui.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.i
+.PHONY : src/vendor/imgui/imgui.cpp.i
+
+src/vendor/imgui/imgui.s: src/vendor/imgui/imgui.cpp.s
+
+.PHONY : src/vendor/imgui/imgui.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui.cpp.s
+.PHONY : src/vendor/imgui/imgui.cpp.s
+
+src/vendor/imgui/imgui_demo.o: src/vendor/imgui/imgui_demo.cpp.o
+
+.PHONY : src/vendor/imgui/imgui_demo.o
+
+# target to build an object file
+src/vendor/imgui/imgui_demo.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.o
+.PHONY : src/vendor/imgui/imgui_demo.cpp.o
+
+src/vendor/imgui/imgui_demo.i: src/vendor/imgui/imgui_demo.cpp.i
+
+.PHONY : src/vendor/imgui/imgui_demo.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_demo.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.i
+.PHONY : src/vendor/imgui/imgui_demo.cpp.i
+
+src/vendor/imgui/imgui_demo.s: src/vendor/imgui/imgui_demo.cpp.s
+
+.PHONY : src/vendor/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_demo.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_demo.cpp.s
+.PHONY : src/vendor/imgui/imgui_demo.cpp.s
+
+src/vendor/imgui/imgui_draw.o: src/vendor/imgui/imgui_draw.cpp.o
+
+.PHONY : src/vendor/imgui/imgui_draw.o
+
+# target to build an object file
+src/vendor/imgui/imgui_draw.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.o
+.PHONY : src/vendor/imgui/imgui_draw.cpp.o
+
+src/vendor/imgui/imgui_draw.i: src/vendor/imgui/imgui_draw.cpp.i
+
+.PHONY : src/vendor/imgui/imgui_draw.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_draw.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.i
+.PHONY : src/vendor/imgui/imgui_draw.cpp.i
+
+src/vendor/imgui/imgui_draw.s: src/vendor/imgui/imgui_draw.cpp.s
+
+.PHONY : src/vendor/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_draw.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_draw.cpp.s
+.PHONY : src/vendor/imgui/imgui_draw.cpp.s
+
+src/vendor/imgui/imgui_impl_glfw_gl3.o: src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
+
+.PHONY : src/vendor/imgui/imgui_impl_glfw_gl3.o
+
+# target to build an object file
+src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
+.PHONY : src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
+
+src/vendor/imgui/imgui_impl_glfw_gl3.i: src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+
+.PHONY : src/vendor/imgui/imgui_impl_glfw_gl3.i
+
+# target to preprocess a source file
+src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+.PHONY : src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+
+src/vendor/imgui/imgui_impl_glfw_gl3.s: src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+
+.PHONY : src/vendor/imgui/imgui_impl_glfw_gl3.s
+
+# target to generate assembly for a file
+src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s:
+	$(MAKE) -f CMakeFiles/Application.dir/build.make CMakeFiles/Application.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+.PHONY : src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -372,6 +561,27 @@ help:
 	@echo "... src/std_image.o"
 	@echo "... src/std_image.i"
 	@echo "... src/std_image.s"
+	@echo "... src/tests/TestClearColor.o"
+	@echo "... src/tests/TestClearColor.i"
+	@echo "... src/tests/TestClearColor.s"
+	@echo "... src/tests/TestTexture.o"
+	@echo "... src/tests/TestTexture.i"
+	@echo "... src/tests/TestTexture.s"
+	@echo "... src/tests/test.o"
+	@echo "... src/tests/test.i"
+	@echo "... src/tests/test.s"
+	@echo "... src/vendor/imgui/imgui.o"
+	@echo "... src/vendor/imgui/imgui.i"
+	@echo "... src/vendor/imgui/imgui.s"
+	@echo "... src/vendor/imgui/imgui_demo.o"
+	@echo "... src/vendor/imgui/imgui_demo.i"
+	@echo "... src/vendor/imgui/imgui_demo.s"
+	@echo "... src/vendor/imgui/imgui_draw.o"
+	@echo "... src/vendor/imgui/imgui_draw.i"
+	@echo "... src/vendor/imgui/imgui_draw.s"
+	@echo "... src/vendor/imgui/imgui_impl_glfw_gl3.o"
+	@echo "... src/vendor/imgui/imgui_impl_glfw_gl3.i"
+	@echo "... src/vendor/imgui/imgui_impl_glfw_gl3.s"
 .PHONY : help
 
 
